@@ -1699,7 +1699,7 @@ a:hover.back-to-top {
 /*****************************/	
 
 /* Min-width width 768px */
-@media (min-width: 400px) {
+@media (min-width: 375px) {
 
 	/* Navigation */
 	.navbar-custom {
@@ -1807,27 +1807,6 @@ a:hover.back-to-top {
 		color: #fff;
 	}
 	/* end of navigation */
-
-	.navbar-custom .navbar-brand.logo-image-1 img {
-		opacity: 0;
-		
-	}
-	
-	.navbar-custom.top-nav-collapse .navbar-brand.logo-image img {
-		opacity: 0;
-	}
-
-	
-	.navbar-custom.top-nav-collapse .navbar-brand.logo-image img {
-		opacity: 0;
-	}
-	
-	.navbar-custom.top-nav-collapse .navbar-brand.logo-image-1 img {
-		opacity: 1;
-		position: relative;
-		right: 0;
-		height: 4rem;
-	}
 	
 	/* General Styles */
 	.p-heading {
