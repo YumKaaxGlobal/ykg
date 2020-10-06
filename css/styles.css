@@ -1698,8 +1698,8 @@ a:hover.back-to-top {
 /*     20. Media Queries     */
 /*****************************/	
 
-/* Min-width width 768px */
-@media (min-width: 375px) {
+/* Min-width width 600px */
+@media only screen and (max-width: 600px){
 
 	/* Navigation */
 	.navbar-custom {
@@ -1922,7 +1922,7 @@ a:hover.back-to-top {
 	}
 	/* end of extra pages */
 }
-/* end of min-width width 400px */
+/* end of min-width width 600px */
 
 
 /* Min-width width 768px */
