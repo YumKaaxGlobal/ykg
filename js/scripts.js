@@ -161,7 +161,7 @@
     	if (event.isDefaultPrevented()) {
             // handle the invalid form...
             rformError();
-            rsubmitMSG(false, "Por favor diligenciar todos los campos!");
+            rsubmitMSG(false, "¡Por favor diligencia todos los campos!");
         } else {
             // everything looks good!
             event.preventDefault();
@@ -202,21 +202,12 @@
 
                 }
             }
-            // success: function() {
-            //     var text = this.success.name;
-            //     if (text == "success") {
-            //         rformSuccess();
-            //     } else {
-            //         rformError();
-            //         rsubmitMSG(false, text);
-            //     }
-            // }
         });
 	}
 
     function rformSuccess() {
         $("#requestForm")[0].reset();
-        rsubmitMSG(true, "Datos enviados! Te estaremos Contactando");
+        rsubmitMSG(true, "¡Datos enviados! Te estaremos Contactando");
         $("input").removeClass('notEmpty'); // resets the field label after submission
     }
 
