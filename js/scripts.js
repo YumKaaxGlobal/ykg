@@ -177,12 +177,13 @@
         var quality = $("#rquality").val();
         var experience = $("#rexperience").val();
         var save = $("#rsave").val();
-        var production = $("#rproduction").val();
-        var opinion = $("#rmessage").val();
+        // var production = $("#rproduction").val();
+        // var opinion = $("#rmessage").val();
         var terms = $("#cterms").is(":checked");
         terms ? terms = "Sí" : terms = "No";
         
-        var data = encodeURI("entry.317376687=" + name + "&entry.1224495078=" + opinion + "&entry.1726528314=" + identify + "&entry.419635069=" + quality + "&entry.1092167794=" + experience + "&entry.1872414744=" + save + "&entry.1195577633=" + production + "&emailAddress=" + email + "&entry.1776558617=" + terms);
+        var data = encodeURI("entry.317376687=" + name + "&entry.1726528314=" + identify + "&entry.419635069=" + quality + "&entry.1092167794=" + experience + "&entry.1872414744=" + save + "&emailAddress=" + email + "&entry.1776558617=" + terms);
+        // var data = encodeURI("entry.317376687=" + name + "&entry.1224495078=" + opinion + "&entry.1726528314=" + identify + "&entry.419635069=" + quality + "&entry.1092167794=" + experience + "&entry.1872414744=" + save + "&entry.1195577633=" + production + "&emailAddress=" + email + "&entry.1776558617=" + terms);
         // console.log(data);
         
         $.ajax({
