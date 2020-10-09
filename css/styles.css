@@ -2579,8 +2579,18 @@ a:hover.back-to-top {
 		height: 100%;
 	}
 
+	.header1 {
+		background: url('../images/header-background-3.jpg') center center no-repeat;
+		background-size: cover; 
+		height: 40%;
+	}
+
 	.header .header-content {
 		padding-top: 11.5rem;
+		text-align: left;
+	}
+	.header1 .header-content {
+		padding-top: 8.5rem;
 		text-align: left;
 	}
 
