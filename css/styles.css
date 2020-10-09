@@ -837,7 +837,8 @@ input[type='checkbox'] {
 }
 
 .cards-1 .card {
-	max-width: 21rem;
+	/* max-width: 21rem; */
+	width: 80%;	
 	margin-right: auto;
 	margin-bottom: 4.5rem;
 	margin-left: auto;
@@ -847,9 +848,14 @@ input[type='checkbox'] {
 	background: transparent;
 }
 
+.cards-1 .card:hover{
+	transform: scale(1.1);
+	opacity: 0.8;
+}
+
 .cards-1 .card-image {
-	width: 6rem;
-	height: 6rem;
+	width: 8rem;
+	height: 8rem;
 	margin-right: auto;
 	margin-bottom: 2rem;
 	margin-left: auto;
@@ -2063,14 +2069,49 @@ a:hover.back-to-top {
 	/* end of general styles */
 
 	/* Header */
+	/* Header */
 	.header {
 		background: url('../images/header-background.jpg') center center no-repeat;
 		background-size: cover; 
 		height: 100%;
 	}
 
+	.header1 {
+		background: url('../images/header-background-1.jpg') center center no-repeat;
+		background-size: cover; 
+		height: 42%;
+	}
+
+	.header2 {
+		background: url('../images/header-background-2.jpg') center center no-repeat;
+		background-size: cover; 
+		height: 42%;
+	}
+
+	.header3 {
+		background: url('../images/header-background-3.jpg') center center no-repeat;
+		background-size: cover; 
+		height: 42%;
+	}
+
+
 	.header .header-content {
-		padding-top: 10.5rem;
+		padding-top: 7.5rem;
+		text-align: left;
+	}
+
+	.header1 .header-content {
+		padding-top: 7.5rem;
+		text-align: left;
+	}
+
+	.header2 .header-content {
+		padding-top: 7.5rem;
+		text-align: left;
+	}
+
+	.header3 .header-content {
+		padding-top: 7.5rem;
 		text-align: left;
 	}
 
@@ -2327,8 +2368,42 @@ a:hover.back-to-top {
 		height: 100%;
 	}
 
+	.header1 {
+		background: url('../images/header-background-1.jpg') center center no-repeat;
+		background-size: cover; 
+		height: 42%;
+	}
+
+	.header2 {
+		background: url('../images/header-background-2.jpg') center center no-repeat;
+		background-size: cover; 
+		height: 42%;
+	}
+
+	.header3 {
+		background: url('../images/header-background-3.jpg') center center no-repeat;
+		background-size: cover; 
+		height: 42%;
+	}
+
+
 	.header .header-content {
-		padding-top: 10.5rem;
+		padding-top: 7.5rem;
+		text-align: left;
+	}
+
+	.header1 .header-content {
+		padding-top: 7.5rem;
+		text-align: left;
+	}
+
+	.header2 .header-content {
+		padding-top: 7.5rem;
+		text-align: left;
+	}
+
+	.header3 .header-content {
+		padding-top: 7.5rem;
 		text-align: left;
 	}
 
@@ -2580,16 +2655,39 @@ a:hover.back-to-top {
 	}
 
 	.header1 {
+		background: url('../images/header-background-1.jpg') center center no-repeat;
+		background-size: cover; 
+		height: 42%;
+	}
+
+	.header2 {
+		background: url('../images/header-background-2.jpg') center center no-repeat;
+		background-size: cover; 
+		height: 42%;
+	}
+
+	.header3 {
 		background: url('../images/header-background-3.jpg') center center no-repeat;
 		background-size: cover; 
-		height: 40%;
+		height: 42%;
 	}
 
 	.header .header-content {
 		padding-top: 11.5rem;
 		text-align: left;
 	}
+	
 	.header1 .header-content {
+		padding-top: 8.5rem;
+		text-align: left;
+	}
+	
+	.header2 .header-content {
+		padding-top: 8.5rem;
+		text-align: left;
+	}
+	
+	.header3 .header-content {
 		padding-top: 8.5rem;
 		text-align: left;
 	}
